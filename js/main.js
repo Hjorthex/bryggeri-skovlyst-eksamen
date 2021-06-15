@@ -395,3 +395,34 @@ $(document).ready(function() {
     });
 });
 // FAQ Funktion slut
+
+
+// Funktion til footer Mobile start
+$(document).ready(function() {
+  $(".footer-heading__contact").click(function(){
+    $(".footer__contact-toggle").toggleClass("footer__toggle--active")
+    $(".footer-heading__contact-arrow").toggleClass("footer__toggle--rotate")
+  });
+});
+
+$(document).ready(function() {
+  $(".footer-heading__food").click(function(){
+    $(".footer__food-toggle").toggleClass("footer__toggle--active")
+    $(".footer-heading__food-arrow").toggleClass("footer__toggle--rotate")
+  });
+});
+
+$(document).ready(function() {
+  $(".footer-heading__practical").click(function(){
+    $(".footer__practical-toggle").toggleClass("footer__toggle--active")
+    $(".footer-heading__practical-arrow").toggleClass("footer__toggle--rotate")
+  });
+});
+
+$(document).ready(function() {
+  $(".footer-heading__hours").click(function(){
+    $(".footer__hours-toggle").toggleClass("footer__toggle--active")
+    $(".footer-heading__hours-arrow").toggleClass("footer__toggle--rotate")
+  });
+});
+// Funktion til footer Mobile slut
