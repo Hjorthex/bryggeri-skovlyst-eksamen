@@ -101,7 +101,7 @@ body {
 .header-spacer-global {
     height: 1px;
     width: 100vw;
-    margin-bottom: 4.95rem;
+    margin-bottom: 4rem;
 }
 
 .hero-image-global {
@@ -151,6 +151,10 @@ body {
 }
 
 .fixed-btn__up {
+    z-index: 100;
+    position: sticky;
+    top: 90vh;
+    margin-left: calc(100vw - 6rem);
     display: flex;
     width: 4rem;
     height: 4rem;
@@ -1430,6 +1434,9 @@ footer {
     display: flex;
 }
 
+.contact-events {
+    margin: 0 2rem;
+}
 
 
 /* Kontakt og info styling end */
@@ -1820,7 +1827,7 @@ footer {
 
 /* Fixed button start -----------------------------------*/
 
-.fixed-btn__container {
+.fixed-btn__up {
     display: none;
 }
 
@@ -2624,7 +2631,7 @@ footer {
     grid-template-areas: 
     ". heading heading heading heading . . . . . . ."
     ". underline underline underline . . . . . . . ."
-    ". text text text text . . . . . . .";
+    ". text text text text text text . . . . .";
 }
 
 .events-intro__heading {
@@ -3190,6 +3197,11 @@ footer {
 .contact-grid-container-hours__night {
     margin-top: 1rem;
 }
+
+.contact-events {
+    margin: 0 0 0 19rem;
+}
+
 
 /* Kontakt og info styling end */
 
